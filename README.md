@@ -1,6 +1,8 @@
 # wifiRelayRadar
 Operate Relays from anywhere on the internet and check for intrusion
 
+Look at the pictures for construction - please note you will need to swap the jumpers on the relay board to active LOW because of come IO constraints on the GPIO/MCU board.
+
 Video about the module itself (before combining it with the ESP board):
 
 https://www.youtube.com/watch?v=tYnp6K3p_tE
