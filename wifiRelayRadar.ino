@@ -168,8 +168,8 @@ void loop() {
             client.print("<a href=\"/relayon3t\">on timed</a>|<a href=\"/relayon3\">on</a>|<a href=\"/relayoff3\">off</a><br>Relay 4: ");
             client.println(relayValue4);
             
-            client.println("<a href=\"/relayon4t\">on timed</a>|<a href=\"/relayon4\">on</a>|<a href=\"/relayoff4\">off</a><br>Radar Status:");
-            
+            client.println("<a href=\"/relayon4t\">on timed</a>|<a href=\"/relayon4\">on</a>|<a href=\"/relayoff4\">off</a><br><a href=\"/relayallon\">All On</a>|<a href=\"/relayalloff\">All Off</a><br>Radar Status:");
+                        
             if (radarValue == 0) 
             {
               client.println("No");  
